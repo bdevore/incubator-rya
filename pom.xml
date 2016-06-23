@@ -81,6 +81,8 @@ under the License.
         <mongodb.version>2.13.3</mongodb.version> <!-- Newest: 3.1.1 -->
         <embed.mongo.version>1.50.0</embed.mongo.version> <!-- Newest: 1.50.0 -->
 
+        <hbase.version>1.0.0</hbase.version> <!-- Newest: 1.1.5 -->
+
         <blueprints.version>2.5.0</blueprints.version> <!-- Newest: Apache 3.1.0-incubating -->
 
         <commons.lang.version>2.6</commons.lang.version> <!-- Newest: 2.6 -->
@@ -332,6 +334,11 @@ under the License.
                 <version>${embed.mongo.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.apache.hbase</groupId>
+                <artifactId>hbase-client</artifactId>
+                <version>${hbase.version}</version>
+            </dependency>
             <!-- Groovy -->
             <dependency>
                 <groupId>org.codehaus.groovy</groupId>
