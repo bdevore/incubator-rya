@@ -35,5 +35,6 @@ under the License.
     <modules>
         <module>accumulo.rya</module>
         <module>mongodb.rya</module>
+        <module>hbase.rya</module>
     </modules>
 </project>
